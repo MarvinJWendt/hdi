@@ -3,7 +3,6 @@
 // Imports
 import program from 'commander'
 import chalk from 'chalk'
-import Logic from './logic'
 
 // Set flags
 program
@@ -22,11 +21,3 @@ if (program.quite as boolean) {
 if (program.debug as boolean) console.log(program.opts())
 else console.debug = function () {}
 
-// Program code
-console.log(chalk.magentaBright('Hello, World!'))
-console.debug("This will only be shown when the 'debug' flag is set!")
-
-const l = new Logic() // To use non-static functions
-console.log(l.hw())
-console.log(l.one);
-console.log(Logic.sumAll(1, 2, 3, 4, 5, 6, 7, 8, 9)) // Use static function

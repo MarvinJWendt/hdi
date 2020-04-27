@@ -1,12 +1,12 @@
 {
-  "name": "name",
+  "name": "hdi",
   "version": "0.0.1",
-  "description": "Description",
+  "description": "\"How do I\" will try to find a solution to your problem.",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
   "bin": {
-    "insert-command": "build/main/index.js"
+    "hdi": "build/main/index.js"
   },
   "scripts": {
     "describe": "npm-scripts-info",
@@ -44,15 +44,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/USER/PROJECT.git"
+    "url": "git+https://github.com/MarvinJWendt/hdi.git"
   },
   "keywords": [],
   "author": "USER",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/USER/PROJECT/issues"
+    "url": "https://github.com/MarvinJWendt/hdi/issues"
   },
-  "homepage": "https://github.com/USER/PROJECT#readme",
+  "homepage": "https://github.com/MarvinJWendt/hdi#readme",
   "devDependencies": {
     "@bitjson/npm-scripts-info": "^1.0.0",
     "@bitjson/typedoc": "^0.15.0-0",
